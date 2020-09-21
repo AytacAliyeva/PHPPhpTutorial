@@ -180,11 +180,9 @@
                         $price =[27, 97, 147];
                         ?>
                         <?php
-                        for ($i=0; $i<4; $i++):
+                        for ($i=0; $i<3; $i++):
                         ?>
-                        <?
-                        for ($j=0; $j<4; $j++):
-                        ?>
+
                         <div class="pricing-table">
                             <div class="pricing-table-inner">
                                 <div class="pricing-table-main">
@@ -192,12 +190,12 @@
                                         <div class="pricing-table-title mt-12 mb-8"><?= $name[$i] ?></div>
                                         <div class="pricing-table-price mb-32 pb-24">
                                             <span class="pricing-table-price-currency h4">$</span>
-                                            <span class="pricing-table-price-amount h2"><?= $price[$j] ?></span>/mo
+                                            <span class="pricing-table-price-amount h2"><?= $price[$i] ?></span>/mo
                                         </div>
                                     </div>
                                     <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
                                         <?php
-                                        for ($i=0; $i<4; $i++):
+                                        for ($k=0; $k<4; $k++):
                                         ?>
                                         <li class="is-revealing">
                                                 <span class="list-icon">
@@ -208,7 +206,7 @@
                                                 </span>
                                             <span>Lorem ipsum is common text </span>
                                         </li>
-                                        <?php endfor ?>
+                                        <?php endfor; ?>
                                     </ul>
                                 </div>
                                 <div class="pricing-table-cta is-revealing">
@@ -218,7 +216,7 @@
                             </div>
                         </div>
                         <?php endfor; ?>
-                        <?php endfor;?>
+
 
                     </div>
                 </div>
