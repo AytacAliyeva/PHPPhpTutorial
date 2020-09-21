@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62facd7e-a768-4137-a231-224785ccb5e4" name="Default Changelist" comment="php">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agnes/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/agnes/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600694491826</updated>
-      <workItem from="1600694492921" duration="7203000" />
+      <workItem from="1600694492921" duration="10561000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1600694820363</created>
@@ -53,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600702452516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="php">
+      <created>1600702529080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600702529080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,9 +92,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="528" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600694694449" />
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1600702459605">
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2" timestamp="1600707763373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600702459605" />
+    <state x="0" y="0" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600707763373" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600708075417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1600708075417" />
   </component>
 </project>

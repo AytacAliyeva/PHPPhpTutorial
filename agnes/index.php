@@ -179,14 +179,20 @@
                         $name =['Starter', 'Professional' , 'Business'];
                         $price =[27, 97, 147];
                         ?>
+                        <?php
+                        for ($i=0; $i<4; $i++):
+                        ?>
+                        <?
+                        for ($j=0; $j<4; $j++):
+                        ?>
                         <div class="pricing-table">
                             <div class="pricing-table-inner">
                                 <div class="pricing-table-main">
                                     <div class="pricing-table-header is-revealing">
-                                        <div class="pricing-table-title mt-12 mb-8"><?=$name[0]?></div>
+                                        <div class="pricing-table-title mt-12 mb-8"><?= $name[$i] ?></div>
                                         <div class="pricing-table-price mb-32 pb-24">
                                             <span class="pricing-table-price-currency h4">$</span>
-                                            <span class="pricing-table-price-amount h2"><?=$price[0]?></span>/mo
+                                            <span class="pricing-table-price-amount h2"><?= $price[$j] ?></span>/mo
                                         </div>
                                     </div>
                                     <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
@@ -211,72 +217,9 @@
                                 </div>
                             </div>
                         </div>
-                            <!--2-->
-                        <div class="pricing-table">
-                            <div class="pricing-table-inner">
-                                <div class="pricing-table-main">
-                                    <div class="pricing-table-header is-revealing">
-                                        <div class="pricing-table-title mt-12 mb-8"><?=$name[1]?></div>
-                                        <div class="pricing-table-price mb-32 pb-24"><span
-                                                    class="pricing-table-price-currency h4">$</span><span
-                                                    class="pricing-table-price-amount h2"><?=$price[1]?></span>/mo
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                        <?php
-                                        for ($i=0; $i<4; $i++):
-                                            ?>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero"
-                                                              d="   M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                        <?php endfor ?>
-                                    </ul>
-                                </div>
-                                <div class="pricing-table-cta is-revealing">
-                                    <a class="button button-primary button-shadow button-block" href="#">Get early
-                                        access</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--3-->
-                        <div class="pricing-table">
-                            <div class="pricing-table-inner">
-                                <div class="pricing-table-main">
-                                    <div class="pricing-table-header is-revealing">
-                                        <div class="pricing-table-title mt-12 mb-8"><?=$name[2]?></div>
-                                        <div class="pricing-table-price mb-32 pb-24"><span
-                                                    class="pricing-table-price-currency h4">$</span><span
-                                                    class="pricing-table-price-amount h2"><?=$price[2]?></span>/mo
-                                        </div>
-                                    </div>
-                                    <ul class="pricing-table-features list-reset text-xs mt-24 mb-56">
-                                        <?php
-                                        for ($i=0; $i<4; $i++):
-                                            ?>
-                                            <li class="is-revealing">
-                                                <span class="list-icon">
-                                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5FFAD0" fill-rule="nonzero"
-                                                              d="   M5.6 8.4L1.6 6 0 7.6 5.6 14 16 3.6 14.4 2z"/>
-                                                    </svg>
-                                                </span>
-                                                <span>Lorem ipsum is common text </span>
-                                            </li>
-                                        <?php endfor ?>
-                                    </ul>
-                                </div>
-                                <div class="pricing-table-cta is-revealing">
-                                    <a class="button button-primary button-shadow button-block" href="#">Get early
-                                        access</a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endfor; ?>
+                        <?php endfor;?>
+
                     </div>
                 </div>
             </div>
